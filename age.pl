@@ -10,19 +10,26 @@
 #
 
 
-use strict;
+#use strict;
 use agecalc; 
 
-print "Enter your Date Of Birth: \n";
+#print "Age Calculator\n";
+#print "Enter your Date Of Birth: \n";
+
+print "Experience Calculator\n";
+print "Enter your Date Of Joining: \n";
+
 my $in = <>;
-my $cal_age = agecalc::age_cal($in);  
+my $duration = agecalc::age_cal($in);  
 
-print $cal_age;
+print "You have experience of $duration\n";
 
+#print "Your age is $duration\n";
 
 
 sleep 6;
 
-print "\nThanks for using Age Calculator!\n"
+print "\nThanks for using Experience Calculator!\n"
+#print "\nThanks for using Age Calculator!\n"
 #my $no = 2.431;
 #print int($no);

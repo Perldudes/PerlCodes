@@ -64,7 +64,7 @@ sub age_cal($){
 				my $cal_year = $year-$dyear; 
 				#print"OK";
 				
-				return "Your age is $cal_year years $cal_month months $cal_day days\n";
+				return "$cal_year years $cal_month months $cal_day days\n";
 				
 		}
 		else
