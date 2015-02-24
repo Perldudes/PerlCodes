@@ -11,11 +11,8 @@
 #
 
 
-#use strict;
+use strict;
 use agecalc; 
-
-#print "Age Calculator\n";
-#print "Enter your Date Of Birth: \n";
 
 print "Experience Calculator\n";
 print "Enter your Date Of Joining: \n";
@@ -25,10 +22,7 @@ my $duration = agecalc::age_cal($in);
 
 print "You have experience of $duration\n";
 
-#print "Your age is $duration\n";
-
-
 sleep 6;
 
 print "\nThanks for using Experience Calculator!\n"
-#print "\nThanks for using Age Calculator!\n"
+
